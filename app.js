@@ -93,7 +93,7 @@ function main() {
               }
             })
           } else {
-            console.error('No Sketch files found for this commit. Make sure to open the Sketch file via Abstract at least once for it to generate a file that we can copy. Opening it untracked does the trick.')
+            console.error('No Sketch file(s) found for this commit. Make sure to open the Sketch file(s) via Abstract at least once for it to generate file(s) that we can copy. Opening them untracked does the trick.')
             return
           }
         })
