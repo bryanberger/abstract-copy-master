@@ -2,8 +2,9 @@
 Watches an Abstract project for changes, copies latest master commit Sketch file(s) to a destination of your choice.
 
 ## Why?
-I created this out of the need to copy our Design System's `master` Sketch file(s) outside of Abstract (like on Dropbox, etc) frequently.
-There is probably an easier way todo this, but this seems to work good for basic needs.
+I created this out of the need to copy our Design System's `master` Sketch file(s) outside of Abstract (like on Dropbox, etc) frequently (for various reasons).
+
+I wanted to automate this, so it just happens. There is probably an easier way todo this, but this seems to work good for basic needs.
 
 ## Workflow
 1.  `mv .env.sample .env`
