@@ -11,6 +11,7 @@ I wanted to automate this, so it just happens. There is probably an easier way t
 2.  Change the `REPO_ID`, `FILE_ID`, and `DEST_DIR` variables
 3.  `npm install`
 4.  `npm start`
+5. (optional) use [pm2](http://pm2.keymetrics.io) to start a daemon
 5.  Make sure to open the Sketch file(s) via Abstract at least once for it to generate file(s) that we can copy. Opening them untracked does the trick.
 6.  Check your `DEST_DIR` for the output
 
